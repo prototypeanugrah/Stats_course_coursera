@@ -1,11 +1,4 @@
----
-title: "Statistical inference with the GSS data"
-output: 
-  html_document: 
-    fig_height: 4
-    highlight: pygments
-    theme: spacelab
----
+# Statistical inference with the GSS data
 
 ## Setup
 
@@ -55,10 +48,12 @@ study_data <- select(gss,year,class,homosex) %>% na.omit() %>%
 all_time <- study_data
 summary(all_time)
 ```
+
 ```{r}
 all_time_table <- table(all_time$class,all_time$positive)
 all_time_table
 ```
+
 ```{r}
 prop.table(all_time_table)
 ```
