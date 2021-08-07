@@ -1,10 +1,6 @@
 ---
 title: "Modeling and prediction for movies"
-output: 
-  html_document: 
-    fig_height: 4
-    highlight: pygments
-    theme: spacelab
+output: github_document
 ---
 
 ## Setup
