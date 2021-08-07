@@ -1,10 +1,7 @@
 ---
 title: "Statistical inference with the GSS data"
 output: 
-  html_document: 
-    fig_height: 4
-    highlight: pygments
-    theme: spacelab
+  github_document
 ---
 
 ## Setup
